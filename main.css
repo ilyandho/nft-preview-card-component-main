@@ -50,6 +50,11 @@ img {
   color: white;
   font-size: 1.5rem;
   padding: 1rem 0;
+  cursor:pointer;
+}
+
+.card h3:hover{
+    color:var(--neon)
 }
 
 .card .body > p {
@@ -100,6 +105,10 @@ footer a {
   color: white;
   text-decoration: none;
   cursor: pointer;
+}
+
+footer a:hover{
+    color:var(--neon)
 }
 
 .attribution {
